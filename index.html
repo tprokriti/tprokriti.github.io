@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabia Morshed - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Quicksand:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="profile-container">
+          <div class="profile-img">
+            <div class="corner corner-top-left"></div>
+            <div class="corner corner-top-right"></div>
+            <div class="corner corner-bottom-left"></div>
+            <div class="corner corner-bottom-right"></div>
+            <img
+              src="images\tabia-morshed.jpg"
+              alt="Profile Photo"
+              class="profile-photo"
+            />
+          </div>
+          <div class="profile-text">
+            <h1 class="animate__animated animate__fadeInDown">Tabia Morshed</h1>
+            <p class="animate__animated animate__fadeInUp">
+              <span class="typed-text"></span><span class="cursor">&nbsp;</span>
+            </p>
+          </div>
+        </div>
+        <div
+          class="social-icons animate__animated animate__fadeIn animate__delay-1s"
+        >
+          <a
+            href="https://github.com/tprokriti"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/tabia-morshed-48189927b/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="sticky-nav">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#about"><i class="fas fa-user"></i> About</a>
+          </li>
+          <li>
+            <a href="#education"
+              ><i class="fas fa-graduation-cap"></i> Education</a
+            >
+          </li>
+          <li>
+            <a href="#experience"
+              ><i class="fas fa-briefcase"></i> Experience</a
+            >
+          </li>
+          <li>
+            <a href="#skills"><i class="fas fa-code"></i> Skills</a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="about" class="section-card">
+      <div class="container">
+        <h2><i class="fas fa-user section-icon"></i> About Me</h2>
+        <div class="about-content">
+          <div class="about-grid">
+            <div class="about-card highlight-card">
+              <i class="fas fa-graduation-cap card-icon"></i>
+              <h3>Education</h3>
+              <p>
+                Computer Science Student at Ahsanullah University of Science and
+                Technology
+              </p>
+            </div>
+            <div class="about-card">
+              <i class="fas fa-code card-icon"></i>
+              <h3>Development</h3>
+              <p>
+                Passionate about creating meaningful digital experiences through
+                innovative solutions
+              </p>
+            </div>
+            <div class="about-card">
+              <i class="fas fa-palette card-icon"></i>
+              <h3>Design</h3>
+              <p>
+                Exploring new design trends and creating user-friendly
+                interfaces
+              </p>
+            </div>
+            <div class="about-card highlight-card">
+              <i class="fas fa-lightbulb card-icon"></i>
+              <h3>Innovation</h3>
+              <p>
+                Dedicated to continuous learning and solving complex problems
+              </p>
+            </div>
+          </div>
+          <div class="about-description">
+            <p class="main-text">
+              A dedicated fourth-year Computer Science student, passionate about
+              continuous learning and skill enhancement. My journey in
+              technology is driven by a deep curiosity and desire to create
+              meaningful digital experiences.
+            </p>
+            <div class="about-tags">
+              <span class="tag">Problem Solver</span>
+              <span class="tag">Creative Thinker</span>
+              <span class="tag">Tech Enthusiast</span>
+            </div>
+            <a
+              href="assets/Tabia_Morshed_CV.pdf"
+              class="btn glow-btn"
+              download="Tabia_Morshed_CV.pdf"
+              onclick="trackDownload()"
+            >
+              Download CV <i class="fas fa-download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section-card">
+      <div class="container">
+        <h2><i class="fas fa-graduation-cap section-icon"></i> Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021 - Present</span>
+              <h3>BSc in Computer Science and Engineering</h3>
+              <h4>Ahsanullah University of Science and Technology</h4>
+              <p>CGPA: 3.34</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="timeline-content">
+              <span class="timeline-date">2019 - 2020</span>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <h4>Dhaka City College</h4>
+              <p>GPA: 5.00</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="timeline-content">
+              <span class="timeline-date">2018</span>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <h4>Udayan Higher Secondary School and College</h4>
+              <p>GPA: 5.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-card">
+      <div class="container">
+        <h2><i class="fas fa-briefcase section-icon"></i> Experience</h2>
+        <div class="experience-item">
+          <div class="experience-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="experience-content">
+            <h3>Assistant Squad Leader (Intern)</h3>
+            <h4>GAO Tek Inc.</h4>
+
+            <span class="experience-date">Nov 2024 – Feb 2025</span>
+            <div class="experience-skills">
+              <span class="skill-tag">Team Leadership</span>
+              <span class="skill-tag">Project Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-card">
+      <div class="container">
+        <h2><i class="fas fa-code section-icon"></i> Skills</h2>
+
+        <div class="skills-container">
+          <!-- Programming Skills -->
+          <div class="skill-category">
+            <h3><i class="fas fa-terminal"></i> Programming</h3>
+            <div class="design-skills">
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-copyright"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>C</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-plus-square"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>C++</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-terminal"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Python</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-mug-hot"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Java</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Technologies -->
+          <div class="skill-category">
+            <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+            <div class="design-skills">
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-file-code"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>HTML</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>CSS</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>JavaScript</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Design & Multimedia -->
+          <div class="skill-category">
+            <h3><i class="fas fa-paint-brush"></i> Design Tools</h3>
+            <div class="design-skills">
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-pen-nib"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Figma</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-image"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Photoshop</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-palette"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Canva</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-category">
+            <h3><i class="fas fa-users"></i> Soft Skills</h3>
+            <div class="design-skills">
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-comments"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Communication</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Teamwork</h4>
+                </div>
+              </div>
+              <div class="design-skill">
+                <div class="design-skill-icon">
+                  <i class="fas fa-crown"></i>
+                </div>
+                <div class="design-skill-info">
+                  <h4>Leadership</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section-card">
+      <div class="container">
+        <h2><i class="fas fa-certificate section-icon"></i> Certifications</h2>
+        <div class="certifications-container">
+          <div class="certification-card">
+            <div class="certification-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <div class="certification-content">
+              <h3>Fundamental IT Engineer (FE) Examination</h3>
+              <div class="certification-details">
+                <div class="certification-badge">
+                  <i class="fas fa-medal"></i>
+                  <span>12th Place</span>
+                </div>
+                <div class="certification-issuer">
+                  <i class="fas fa-building"></i>
+                  <span
+                    >Bangladesh IT-engineers Examination Center (BD-ITEC)</span
+                  >
+                </div>
+                <div class="certification-org">
+                  <i class="fas fa-university"></i>
+                  <span>Bangladesh Computer Council</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-card">
+      <div class="container">
+        <h2><i class="fas fa-envelope section-icon"></i> Contact Me</h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-envelope-open-text"></i>
+              <div>
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:tabiamorshed@gmail.com"
+                    >tabiamorshed@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <div>
+                <h3>Phone</h3>
+                <p><a href="tel:+8801534817016">01534817016</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h3>Location</h3>
+                <p>Dhaka, Bangladesh</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form>
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <div class="form-group">
+                <input type="text" placeholder="Subject" required />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">
+                Send Message <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Tabia Morshed</h3>
+            <p>Computer Science Student | Developer | Designer</p>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/tprokriti" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/tabia-morshed-48189927b/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Tabia Morshed. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Typed text effect
+        const textArray = ["Computer Science Student", "Developer", "Designer"];
+        const typingDelay = 100;
+        const erasingDelay = 50;
+        const newTextDelay = 2000;
+        let textArrayIndex = 0;
+        let charIndex = 0;
+
+        const typedTextSpan = document.querySelector(".typed-text");
+        const cursorSpan = document.querySelector(".cursor");
+
+        function type() {
+          if (charIndex < textArray[textArrayIndex].length) {
+            if (!cursorSpan.classList.contains("typing"))
+              cursorSpan.classList.add("typing");
+            typedTextSpan.textContent +=
+              textArray[textArrayIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, typingDelay);
+          } else {
+            cursorSpan.classList.remove("typing");
+            setTimeout(erase, newTextDelay);
+          }
+        }
+
+        function erase() {
+          if (charIndex > 0) {
+            if (!cursorSpan.classList.contains("typing"))
+              cursorSpan.classList.add("typing");
+            typedTextSpan.textContent = textArray[textArrayIndex].substring(
+              0,
+              charIndex - 1
+            );
+            charIndex--;
+            setTimeout(erase, erasingDelay);
+          } else {
+            cursorSpan.classList.remove("typing");
+            textArrayIndex++;
+            if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+            setTimeout(type, typingDelay + 1100);
+          }
+        }
+
+        if (textArray.length) setTimeout(type, newTextDelay + 250);
+
+        // Animate skill bars
+        let skillsSection = document.getElementById("skills");
+        let skillBars = document.querySelectorAll(".skill-progress");
+
+        const animateSkillBars = () => {
+          skillBars.forEach((skill) => {
+            let percentage = skill.getAttribute("data-progress");
+            skill.style.width = percentage;
+          });
+        };
+
+        // Animate circular progress
+        const circularProgress =
+          document.querySelectorAll(".circular-progress");
+
+        const animateCircularProgress = () => {
+          circularProgress.forEach((progress) => {
+            const progressValue = progress.querySelector(
+              ".progress-value span"
+            );
+            const percentage = parseInt(progressValue.textContent);
+            const degree = (percentage / 100) * 360;
+
+            progress.style.background = `conic-gradient(var(--secondary-color) ${degree}deg, var(--light-color) 0deg)`;
+          });
+        };
+
+        // Scroll animation
+        let sections = document.querySelectorAll("section");
+        let options = { root: null, threshold: 0.1, rootMargin: "0px" };
+
+        let observer = new IntersectionObserver(function (entries, observer) {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add(
+                "animate__animated",
+                "animate__fadeIn"
+              );
+              entry.target.style.opacity = 1;
+
+              // Animate skill bars when skills section is visible
+              if (entry.target.id === "skills") {
+                setTimeout(animateSkillBars, 500);
+                setTimeout(animateCircularProgress, 500);
+              }
+            }
+          });
+        }, options);
+
+        sections.forEach((section) => {
+          observer.observe(section);
+        });
+
+        // Sticky navigation
+        window.addEventListener("scroll", function () {
+          const nav = document.querySelector(".sticky-nav");
+          const backToTop = document.querySelector(".back-to-top");
+
+          if (window.scrollY > 250) {
+            nav.classList.add("nav-scrolled");
+            backToTop.classList.add("show-back-to-top");
+          } else {
+            nav.classList.remove("nav-scrolled");
+            backToTop.classList.remove("show-back-to-top");
+          }
+        });
+
+        // Back to top button
+        document
+          .querySelector(".back-to-top")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll("nav a").forEach((anchor) => {
+          anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute("href");
+            const targetSection = document.querySelector(targetId);
+
+            window.scrollTo({
+              top: targetSection.offsetTop - 80,
+              behavior: "smooth",
+            });
+          });
+        });
+      });
+    </script>
+    <script>
+      function trackDownload() {
+        // Optional: Add analytics tracking
+        console.log("CV downloaded");
+
+        // Show a toast notification
+        const toast = document.createElement("div");
+        toast.className = "toast-notification";
+        toast.innerHTML = '<i class="fas fa-check"></i> CV download started!';
+        document.body.appendChild(toast);
+
+        // Remove toast after 3 seconds
+        setTimeout(() => {
+          toast.remove();
+        }, 3000);
+      }
+    </script>
+  </body>
+</html>
